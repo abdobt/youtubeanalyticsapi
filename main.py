@@ -3,8 +3,8 @@ import pandas as pd
 from googleapiclient import discovery
 youtubeapikey=""
 youtube=build('youtube','v3',developerKey=youtubeapikey)
-#stats=youtube.channels().list(part='statistics',id='UCLqvyul5A_RCh_qwvQCZojw').execute()
-#stats=youtube.search().list(part='snippet',channelId='UCLqvyul5A_RCh_qwvQCZojw').execute()
+#stats=youtube.channels().list(part='statistics',id='').execute()
+#stats=youtube.search().list(part='snippet',channelId=').execute()
 #stats2=youtube.videos().list(part='statistics',id=stats["items"][1]["id"]["videoId"]).execute()
 #print(stats2)
 import google_auth_oauthlib.flow
